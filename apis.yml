@@ -1,7 +1,25 @@
 aid: baniql-corp
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/baniql-corp.png
 name: BANIQL CORP.
-description: BANIQL CORP. is a company surfaced as a portfolio company of 500-global and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: BANIQL CORP. (BANiQL) is developing a sustainable process for selectively extracting nickel
+  and cobalt for use in lithium-ion battery production. Its core technology uses a chemical process to
+  selectively extract nickel and cobalt from raw materials at lower temperatures and atmospheric pressure,
+  producing high-quality nickel at roughly 30% lower cost than High Pressure Acid Leaching (HPAL) with
+  net-zero waste, cutting energy consumption and carbon dioxide emissions by around 80% while repurposing
+  leftover materials into products like fertilizers and construction materials. Surfaced as a portfolio
+  company of 500 Global and added to the API Evangelist network; this materials/cleantech company publishes
+  no developer or API surface, so this profile carries company identity and domain-security data only.
 url: https://raw.githubusercontent.com/api-evangelist/baniql-corp/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Cleantech
+- Battery Materials
+- Nickel
+- Cobalt
+- Lithium-ion
+- Sustainability
+- Mining
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +46,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/baniql-corp-domain-security.yml
 - type: Website
   url: https://baniql.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
