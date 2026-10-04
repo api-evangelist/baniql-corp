@@ -22,7 +22,7 @@ accessModel:
   generated: '2026-07-22'
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/baniql-corp.png
-name: BANIQL CORP.
+name: BANIQL
 description: BANIQL CORP. (BANiQL) is developing a sustainable process for selectively extracting nickel
   and cobalt for use in lithium-ion battery production. Its core technology uses a chemical process to
   selectively extract nickel and cobalt from raw materials at lower temperatures and atmospheric pressure,
@@ -75,3 +75,4 @@ x-enrichment:
   status: backfilled
   pass: local-v1
   note: backfilled from .gitignore signal + verified work evidence
+x-legal-name: BANIQL CORP.
